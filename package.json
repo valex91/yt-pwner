@@ -1,0 +1,25 @@
+{
+  "name": "yt-pwner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "exe": "ts-node index.ts"
+  },
+  "author": "Valentino Losito",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0",
+    "ytdl-core": "^0.15.0",
+    "@types/node": "^8.0.12",
+    "@types/lodash": "4.14.51",
+    "jsdom":"11.1.0",
+    "rxjs":"^5.4.2",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2",
+    "electron":"^1.6.11"
+  }
+}
